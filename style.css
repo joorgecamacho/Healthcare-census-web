@@ -1,0 +1,107 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .analysisForm {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+  }
+  
+  .analysisForm h1 {
+    margin-bottom: 20px;
+  }
+  
+  .analysisForm div {
+    margin-bottom: 15px;
+  }
+  
+  .analysisForm label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .analysisForm input[type="text"],
+  .analysisForm input[type="number"],
+  .analysisForm select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .analysisForm input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  .analysisForm button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .analysisForm button:hover {
+    background-color: #45a049;
+  }
+  
+  .searchCondition {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .searchCondition #result {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  nav h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  img {
+    width: 50%;
+    height: auto; /* This maintains the aspect ratio */
+}
